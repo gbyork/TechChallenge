@@ -1,4 +1,11 @@
-.container {
+
+
+.upperright {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.containers {
   padding: 0 2rem;
 }
 
@@ -66,11 +73,14 @@
 }
 
 .grid {
+  padding-left: 5cm;
+  background: #fafafa;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 400px;
+  block-size: 2in;
 }
 
 .card {

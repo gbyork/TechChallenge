@@ -1,4 +1,62 @@
 html,
+
+*{
+  color:#DEBF79;
+  background-color: #222222;
+  font-style: oblique;
+  /*text:#858585;*/
+}
+.main_heading{
+  padding-left: 25px;
+  color:#F5F5F5;
+}
+.container {
+  
+  display: grid;
+  padding-left: 12in;
+  grid-template-columns: 1fr 1fr 1fr; 
+  
+}
+.subcontainer{
+  display: grid;
+  padding-left: 3in;
+  grid-template-columns: 2in 2in 2in; 
+  grid-gap: 3in;
+  background-color:white;
+}
+.General{
+  margin: 30px 0;
+  padding-left: 50px;
+  background: gold;
+  color: black;
+}
+.info{
+  margin: 30px 0;
+  padding-left: 50px;
+  background: black;
+  color: gold;
+}
+
+
+ul {
+background: gold;
+color: black;
+padding: 20px;
+}
+
+li{
+  background:black;
+  color: gold;
+  text-decoration: wavy;
+}
+
+
+a.link
+{
+ color: gold;
+ text-decoration-line: underline;
+
+}
 body {
   padding: 0;
   margin: 0;
