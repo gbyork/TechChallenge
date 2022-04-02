@@ -2,7 +2,7 @@ const Navbar = () => {
     return (  
         <nav>
 
-            <div className="logo">
+            <div className="container">
             <img src="/Logo.png" />
             <h1>Midwestern</h1>
             </div>
