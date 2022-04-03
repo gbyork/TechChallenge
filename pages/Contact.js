@@ -1,24 +1,62 @@
 import Link from 'next/link'
 const Contact = () => {
     return (  
-        <div className="clearfix">
-        <div className="box" style="background-color:#bbb"></div>
-        <img src="/Logo.png" />
-        <h1>Heading One</h1>
-        <p>lorem</p>
         
-        <div className="container2">
         
-        <div><Link href ="/"><a>Home</a></Link></div>
         
-        </div> 
-        
-        <div>
-<h1>Welcome to contact page</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div>
+          <div className="clearfix">
+          <div className="box" style={{background:'#222222'}}>
+          
+          
+          <div><img src="/Logo.png"/></div>
+          
+          <br></br>
+          <h1>Heading 1</h1>
+          <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p1>
+          </div>
+          
+          <div className="box" style={{background:'white'}}>
+          
+           <div style={{paddingTop:'75px'}}></div>
+           <div className="home" style={{paddingLeft:'340px'}}><Link href ="/"><a>Home</a></Link></div>
+      
+          
+          <h2>Heading 2</h2>
+          <form method="POST" action="/users/create">
+          <input type="text" name="FirstName" placeholder="First Name"/>
+          <gap> </gap>
+          <input type="text" name="LastName" placeholder="Last Name"/>
+          
+          <br></br>
+          <br></br>
+          <input type="text" name="Title" placeholder="Title"/>
+          
+          <gap> </gap>
+          <input type="text" name="Email" placeholder="Email"/>
+          
+          <br></br>
+          <br></br>
+          <div style={{paddingLeft:'90px'}}>
+          <input type="text" name="Message" placeholder="Message"/>
+          </div>
+          <br></br>
+          <div style={{paddingLeft:'130px'}}>
+          <br></br>    
+          <input type="submit" value="Submit"/>
+          </div>
+          </form>
+          </div>
         </div>
         </div>
+        
+        
+
+        
+        
        
+        
+     
     );
 }
  
