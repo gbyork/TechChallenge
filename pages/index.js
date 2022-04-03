@@ -44,7 +44,7 @@ export default function Home() {
     </div>
     
     <div>
-    <h1>Home Page</h1>     
+    <h1>Heading 1</h1>     
     <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p1>
     <br></br>
     <br></br>
