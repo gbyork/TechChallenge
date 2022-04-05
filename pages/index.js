@@ -8,65 +8,21 @@ import Image from 'next/image'
 
 
 
-var Userlist1 = [{'ID': 1,
-'FirstName': 'Matt',
-'LastName': 'Johnson'
-},
-{'ID': 1,
-'FirstName': 'Matt',
-'LastName': 'Johnson'
-},
-{'ID': 2,
-'FirstName': 'Bart',
-'LastName': 'Paden'
-},
-{'ID': 3,
-'FirstName': 'Ryan',
-'LastName': 'Doss'
-},
-{'ID': 4,
-'FirstName': 'Jared',
-'LastName': 'Malcolm'
-},
-
-];
+var Userlist1 = ['Matt Johnson , ','Matt Johnson , ','Bart Paden , ','Ryan Doss , ','Jared Malcolm , '];
 
 
 
 
-var Userlist2 = [{'ID': 1,
-'FirstName': 'Matt',
-'LastName': 'Johnson'
-},
-{'ID': 2,
-'FirstName': 'Bart',
-'LastName': 'Paden'
-},
-{'ID': 2,
-'FirstName': 'Bart',
-'LastName': 'Paden'
-},
-{'ID': 5,
-'FirstName': 'Jordan',
-'LastName': 'Heigle'
-},
-{'ID': 5,
-'FirstName': 'Jordan',
-'LastName': 'Heigle'
-},
-{'ID': 6,
-'FirstName': 'Tyler',
-'LastName': 'Viles'
-},
-];
+let Userlist2 = [
+'Matt Johnson , ','Bart Paden , ','Bart Paden , ','Jordan Heigle , ','Jordan Heigle , ','Tyler Viles '];
+
 
 var Userlist3 = Userlist1.concat(Userlist2)
-var Finallist = Userlist3.filter((item, pos) => Userlist3.indexOf(item) === pos)
+var Finallist = Userlist3.filter((Name, pos) => Userlist3.indexOf(Name) === pos)
 console.log(Finallist);
 
+
  
-
-
 
 
 export default function Home() {
@@ -114,7 +70,8 @@ export default function Home() {
     <div>
     
     <h1>Heading 1</h1>     
-    <p1>Click this link to display users</p1>
+    <p1>Below are users</p1>
+    <div><p1>{Finallist}</p1></div>
     <br></br>
     <br></br>
     <br></br>
