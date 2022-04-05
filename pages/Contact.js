@@ -1,4 +1,5 @@
 import Link from 'next/link'
+
 const Contact = () => {
     return (  
         
@@ -20,10 +21,10 @@ const Contact = () => {
           
            <div style={{paddingTop:'75px'}}></div>
            <div className="home" style={{paddingLeft:'340px'}}><Link href ="/"><a>Home</a></Link></div>
-      
-          
+
+            
           <h2>Heading 2</h2>
-          <form method="POST" action="/users/create">
+          <form method="POST" action="/api/user">
           <input type="text" name="FirstName" placeholder="First Name"/>
           <gap> </gap>
           <input type="text" name="LastName" placeholder="Last Name"/>
