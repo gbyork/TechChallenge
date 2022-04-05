@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import dbConnect from '../utils/dbConnect';
 
-require('dotenv').config();
+
 
 
 
