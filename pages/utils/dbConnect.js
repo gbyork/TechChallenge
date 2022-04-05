@@ -1,4 +1,4 @@
-require('dotenv').config();
+
 import mongoose from 'mongoose';
 const connection = {mongoose};
 
