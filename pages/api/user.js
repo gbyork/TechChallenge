@@ -1,5 +1,5 @@
-import mongoose from 'mongoose';
-import dbConnect from '../utils/dbConnect';
+/*import mongoose from 'mongoose';
+import dbConnect from '../utils/dbConnect';*/
 
 
 
@@ -15,7 +15,7 @@ export default function handler(req, res) {
     
     
     
-    dbConnect(String(FirstName),String(LastName),String(Title),String(Email),String(Message));
+    //dbConnect(String(FirstName),String(LastName),String(Title),String(Email),String(Message));
     //unsure what "openUri() problem is refering to"
     console.log(req.body.FirstName);
     console.log(req.body.LastName);
